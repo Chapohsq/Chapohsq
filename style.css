@@ -32,7 +32,7 @@ left: 25%;
 
 }
 
-footer{
+.seconda-pg{
     background-color:#c6c013;
 border: solid 1px;
 text-decoration: none;
@@ -68,7 +68,29 @@ padding-bottom: 350px;
 
     
 }
+.terza-pagina{
+background-image: url(./images/IMG_3178.JPG);
+min-height: 150px;
+background-size: cover;
+background-position:center bottom;
+padding-top: 600px;
+padding-bottom: 600px;
 
+}
+.autorizzo-terzaPg{
+background-color:  #313131;
+padding: 15px;
+
+}
+
+.autorizzazione{
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+
+}
 
 /* 
 #034732 verde scuro
