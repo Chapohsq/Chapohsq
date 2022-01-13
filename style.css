@@ -1,0 +1,78 @@
+
+.curriculum-vitae{
+    background-color: #ED1C24;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    margin: 0px;
+}
+.name-surname{
+text-align: center;
+border-style: solid;
+margin: 0px;
+
+}
+
+
+.img-cv {
+    position: absolute; 
+    top: 105px;
+    left: 10px;
+    height: 35%;
+border: solid 1px;
+border-radius: 10px 10px 10px 10px;
+}
+
+
+
+.body-page1{
+    
+position: absolute;
+left: 25%;
+
+}
+
+footer{
+    background-color:#c6c013;
+border: solid 1px;
+text-decoration: none;
+
+}
+.tocca-qui{
+
+    color: #ef2917;
+
+}
+ .text-esperienza{
+    text-align: center;
+  
+
+} 
+.seconda-pagina{
+background-image: url(./images/IMG_3177.JPG);
+min-height: 150px;
+background-size: cover;
+background-position:center bottom;
+padding-top: 350px;
+padding-bottom: 350px;
+}
+.table-inglese{
+
+    border-style: solid;
+
+}
+
+.table-inglese td{
+    border-style: solid;
+    border-width: 1px;
+
+    
+}
+
+
+/* 
+#034732 verde scuro
+#008148 verde chiaro
+#c6c013 giallo
+#ef8a17 arancione
+#ef2917 rosso */
