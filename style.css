@@ -1,19 +1,37 @@
 
+
+
+
+body {
+    background-color: #4f994100;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr ;
+    
+  }
+  
+  
 .curriculum-vitae{
     background-color: #ED1C24;
     padding: 10px;
     text-align: center;
     font-size: 35px;
     margin: 0px;
+    display: grid;
+    grid-area: 4fr;
+    
+
 }
 .name-surname{
 text-align: center;
 border-style: solid;
 margin: 0px;
+display: grid;
+grid-area: 4fr;
+
 
 }
 
-
+/* 
 .img-cv {
     position: absolute; 
     top: 105px;
@@ -21,7 +39,7 @@ margin: 0px;
     height: 35%;
 border: solid 1px;
 border-radius: 10px 10px 10px 10px;
-}
+} */
 
 
 
@@ -29,7 +47,8 @@ border-radius: 10px 10px 10px 10px;
     
 position: absolute;
 left: 25%;
-
+display: grid;
+grid-area: 2.5fr;
 }
 
 .seconda-pg{
@@ -50,7 +69,7 @@ text-decoration: none;
 } 
 .seconda-pagina{
 background-image: url(./images/IMG_3177.JPG);
-min-height: 150px;
+min-height: 200px;
 background-size: cover;
 background-position:center bottom;
 padding-top: 450px;
@@ -92,6 +111,16 @@ padding: 15px;
 
 }
 
+
+
+.foto-curriculum{
+ display: grid ;
+ grid-area: 2fr;
+ grid-column: left;
+display: inline;
+display: inline-block;
+
+}
 /* 
 #034732 verde scuro
 #008148 verde chiaro
